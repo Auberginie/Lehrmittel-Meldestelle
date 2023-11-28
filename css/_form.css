@@ -1,0 +1,257 @@
+/* FORM GRID */
+form {
+    margin-top: 100px;
+}
+
+.kap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.kap .kap-label {
+    flex: 0 0 120px;
+    position: relative;
+}
+
+.kap .kap-label:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: calc(100% + 10px);
+    background-color: var(--c-red);
+    position: absolute;
+    left: 38px;
+    top: 0px;
+}
+
+.kap:last-child .kap-label:before {
+    display: none;
+}
+
+.kap .kap-label .circel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: var(--c-red);
+    position: sticky;
+    top: 100px;
+    margin-bottom: 100px;
+}
+
+.kap .kap-label .circel h2 {
+    line-height: 0;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.kap .kap-form {
+    flex: auto;
+    margin-bottom: 100px;
+}
+
+.kap .widget-textarea textarea,
+.kap .widget-text input.text {
+    max-width: 100%;
+}
+
+.kap3 .kap-form {
+    margin-top: 10px;
+}
+
+/* NORMALISIEREN */
+form *:focus-visible {
+    outline: none;
+}
+
+/*INPUT TEXT*/
+.widget-textarea,
+.widget-text {
+    position: relative;
+}
+
+.widget-textarea textarea,
+.widget-text input.text {
+    border: 1px solid var(--c-grey);
+    padding: 30px 16px 15px 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    cursor: text;
+    width: 100%;
+    max-width: 700px;
+    font-size: 1rem;
+    color: var(--c-grey);
+}
+
+.widget-textarea label,
+.widget-text label {
+    position: absolute;
+    left: 8px;
+    transform: translateY(-50%);
+    display: block;
+    padding-inline: 8px;
+    pointer-events: none;
+    top: 36px;
+    opacity: 0.8;
+    transition: all 0.25s ease-out;
+}
+
+.widget-textarea textarea:not(:placeholder-shown) + label,
+.widget-textarea textarea:focus + label,
+.widget-text input.text:not(:placeholder-shown) + label,
+.widget-text input.text:focus + label {
+    top: 20px;
+    opacity: 1;
+    font-size: 0.6em;
+}
+
+.widget-textarea textarea::placeholder,
+.widget-textarea textarea::-webkit-input-placeholder,
+.widget-text input.text::placeholder,
+.widget-text input.text::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+/* RADIOBUTTONS */
+.widget-radio .radio_container {
+    border: none;
+    margin: 0;
+    border: 1px solid var(--c-grey);
+    padding: 24px 16px;
+    margin-bottom: -1px;
+    cursor: text;
+    width: 100%;
+    font-size: 1rem;
+    color: var(--c-grey);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget-radio .radio_container .title {
+    font-weight: bold;
+}
+
+.widget-radio .radio_container span {
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow: auto;
+    position: relative;
+}
+
+.widget-radio .radio_container span label {
+    padding-left: 26px;
+    position: relative;
+    cursor: pointer;
+}
+
+.widget-radio .radio_container span label:hover:after {
+    border: 2px solid var(--c-red);
+}
+
+.widget-radio .radio_container span label:after {
+    content: '';
+    height: 19px;
+    width: 19px;
+    border: 1px solid var(--c-red);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 12px;
+}
+
+.widget-radio .radio_container span label:before {
+    content: '';
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 12px;
+    background: var(--c-red);
+    display: none;
+}
+
+.widget-radio .radio_container span input {
+    display: none;
+}
+
+.widget-radio .radio_container input:checked + label:after {
+    border: 2px solid var(--c-red);
+}
+
+.widget-radio .radio_container input:checked + label:before {
+    display: block;
+}
+
+/* CHECKBOX */
+.widget-checkbox {
+  position: relative;
+  display: block;
+  margin-bottom: 16px; 
+}
+
+.widget-checkbox label {
+  display: block;
+  position: relative;
+  padding: 4px 0 4px 35px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.widget-checkbox input {
+  height: 56px;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  vertical-align: text-top;
+  width: 100%;
+}
+
+.widget-checkbox .checkmark {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border: 1px solid var(--c-grey);
+  background-color: var(--c-white);
+  display: block;
+  border-radius: 2px;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: -2px;
+  outline-color: transparent;
+  pointer-events: none;
+}
+
+.widget-checkbox .checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 7px;
+	top: 1px;
+	width: 6px;
+	height: 12px;
+	border: solid var(--c-red);
+	border-width: 0px 4px 4px 0;
+	transform: rotate(45deg);
+}
+
+.widget-checkbox input:checked ~ .checkmark {
+  background: var(--c-white);
+}
+
+.widget-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
