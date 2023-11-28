@@ -28,7 +28,8 @@
                 <p class="label">Diversität & Repräsentation.</p>
                 <h1>Über uns</h1>
                 <p class="teaser">Ein Studiumsprojekt, welches Sinn ergeben und genutzt werden soll.</p>
-                <p>In der Kinder- und Jugend-Literatur ist glücklicherweise ein Wandel, hin zu mehr Diversität, zu beobachten. In den Schulen sind wir davon leider noch weit entfernt - und genau da wollen wir anknüpfen. In einer Datenbank sammeln wir alle eure Meldungen in anonymisierter Form und wollen diese dann den Lehrmittelverbänden gebündelt zukommen lassen um ihnen aufzuzeigen wieviel Verbesserungspotential in all diesen Lehrmitteln steckt. Diese Plattform soll von Lehrpersonen genauso wie von Eltern und Erziehungsberechtigten genutzt werden.</p>
+                <p>In der Kinder- und Jugend-Literatur ist glücklicherweise ein Wandel, hin zu mehr Diversität, zu beobachten. In den Schulen sind wir davon leider noch weit entfernt - und genau da wollen wir anknüpfen. In einer Datenbank sammeln wir alle eure Meldungen in anonymisierter Form und wollen diese dann den Lehrmittelverbänden gebündelt zukommen lassen um ihnen aufzuzeigen, wieviel Verbesserungspotential in den Lehrmitteln steckt. Diese Plattform soll von Lehrpersonen genauso wie von Eltern und Erziehungsberechtigten genutzt werden.</p>
+                <p>Vielen herzlichen Dank für deine Mithilfe!</p>
             </div>
         </div>
     </main>
