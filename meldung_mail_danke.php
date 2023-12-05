@@ -37,8 +37,8 @@
                 <p class="label">Mit deiner Hilfe zu mehr Repräsentation & Diversität.<p>
                 <h1>Danke</h1>
                 <p class="teaser">Du erhältst in Kürze eine E-Mail von uns mit dem Bestätigungslink. </p>
-                <p> Bitte klicke auf den Link um deine Meldung einzugeben. </p>
-                <p> Im Anschluss kannst du Schritt für Schritt deine Meldung erfassen. </p>
+                <p> Bitte klicke auf den Link um mit der Erfassung deiner Meldung starten zu können. </p>
+                <p> Im Anschluss wirst du Schritt für Schritt deine Meldung erfassen können. </p>
             </div>
         </div>
     </main>

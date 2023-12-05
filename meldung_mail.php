@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="font/_fonts.css">
     <link rel="stylesheet" href="css/app.css">
 
-    <!-- ICON LIBARY für MAIL ICON -->
+    <!-- ICON LIBRARY für MAIL ICON -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <body>
@@ -44,17 +44,18 @@
                     $to = $_POST['email'];
 
                     // Betreff der E-Mail
-                    $subject = "Verifizierung deiner E-Mailadressse für die Lehrmittel-Meldestelle";
+                    $subject = "Lehrmittel-Meldestelle: Verifizierung deiner E-Mail-Adressse";
 
                     // Nachricht mit Link
-                    $message = "Dank deiner Meldung zu mehr Diversität und Repräsentation. 
-                    Hier kannst du <a href='https://www.lehrmittelmeldestelle.ch/meldung_formular.php'>deine Meldung erfassen</a>.
-                    Herzlichen Dank, dass du dich mit uns zusammen für mehr Diversität und Repräsentation einsetzt und wir mit deinem Support auch die Zukunft in Lehrmitteln diverser gestalten können.";
+                    $message = "Hier kannst du <a href='https://www.lehrmittelmeldestelle.ch/meldung_formular.php'>deine Meldung erfassen</a>.<br><br>
+                    Dank deiner Unterstützung und Meldung können wir uns zusammen für mehr Diversität und Repräsentation in Lehrmitteln einsetzen.<br><br>
+                    Herzlichen Dank für deinen Support!<br><br>
+                    Deine Lehrmittel-Meldestelle<br><br>";
 
                     // E-Mail-Header setzen
                     $headers = "MIME-Version: 1.0" . "\r\n";
                     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                    $headers .= "From: no-replay@lehrmittelmeldestelle.ch";
+                    $headers .= "From: no-reply@lehrmittelmeldestelle.ch";
 
                     // E-Mail senden
                     if (mail($to, $subject, $message, $headers)) {
@@ -70,7 +71,7 @@
                 <form  method="post">
                     <div class="widget-text">
                         <input type="email" name="email" id="email" class="text" required placeholder=".">
-                        <label for="email">E-Mailadresse</label>
+                        <label for="email">E-Mail-Adresse</label>
                     </div>
                     <div class="widget-checkbox">
 	                    <input type="checkbox" name="availability[]" id="infomail" class="checkbox" value="Infomail"> 
