@@ -61,8 +61,8 @@
                             <label for="fach">Fach des Lehrmittels</label>
                         </div>
                         <div class="widget-text">
-                            <input type="text" name="ISBN" class="text" value="" required="" placeholder=".">
-                            <label for="ISBN">ISBN-Nummer des Lehrmittels</label>
+                            <input type="text" name="ISBN" class="text" value="" required="" placeholder="." oninput="formatiereInput(this)">
+                            <label for="ISBN">ISBN-Nummer des Lehrmittels (000-0-000-00000-0)</label>
                         </div>
                         <div class="widget-text">
                             <input type="number" name="seitenzahl" class="text" value="" required="" placeholder=".">
