@@ -68,6 +68,11 @@
                             <input type="number" name="seitenzahl" class="text" value="" required="" placeholder=".">
                             <label for="seitenzahl">Seitenzahl der Meldung</label>
                         </div>
+                        <!-- FILE UPLOAD -->
+                        <div class="widget-upload">
+                            <label for="seitenzahl">Laden ein Foto hoch</label>
+                            <input type="file" id="myFile" name="filename" accept="image/*">
+                        </div>
                     </div>
                 </div>
                 <div class="kap kap2">
