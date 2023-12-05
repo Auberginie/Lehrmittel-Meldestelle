@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="font/_fonts.css">
     <link rel="stylesheet" href="css/app.css">
 
-    <!-- ICON LIBRARY für MAIL ICON -->
+    <!-- ICON LIBARY für MAIL ICON -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <body>
@@ -37,35 +37,9 @@
                 <p class="label">Mit deiner Hilfe zu mehr Repräsentation & Diversität.<p>
                 <h1>Lehrmittel-Meldung</h1>
                 <p class="teaser">Neue Meldung erfassen</p>
-
-                <!-- MAILVERSAND -->
-                <?php if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                    // E-Mail-Adresse aus dem Formular abrufen
-                    $to = $_POST['email'];
-
-                    // Betreff der E-Mail
-                    $subject = "Lehrmittel-Meldestelle: Verifizierung deiner E-Mail-Adressse";
-
-                    // Nachricht mit Link
-                    $message = "Hier kannst du <a href='https://www.lehrmittelmeldestelle.ch/meldung_formular.php'>deine Meldung erfassen</a>.<br><br>
-                    Dank deiner Unterstützung und Meldung können wir uns zusammen für mehr Diversität und Repräsentation in Lehrmitteln einsetzen.<br><br>
-                    Herzlichen Dank für deinen Support!<br><br>
-                    Deine Lehrmittel-Meldestelle<br><br>";
-
-                    // E-Mail-Header setzen
-                    $headers = "MIME-Version: 1.0" . "\r\n";
-                    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                    $headers .= "From: no-reply@lehrmittelmeldestelle.ch";
-
-                    // E-Mail senden
-                    if (mail($to, $subject, $message, $headers)) {
-                        // Erfolgreich gesendet, leite weiter
-                        header("Location: meldung_mail_danke.php");
-                        exit();
-                    } else {
-                        echo '<p class="error">E-Mail konnte nicht gesendet werden. Bitte überprüfe deine E-Mail-Adresse.</p>';
-                    }
-                } ?>
+               
+                <!-- INCLUDE PHP (Formular in DB abspeichern und Mail versenden) -->
+								<?php include 'php_functions/form_address.php' ?>
 
                 <!-- FORMULAR -->
                 <form  method="post">

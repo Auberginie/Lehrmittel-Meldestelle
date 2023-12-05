@@ -27,8 +27,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn->query($sql) === TRUE) {
         // E-Mail-Versand (dein vorhandener Code)
         $to = $email;
-        $subject = "Verifizierung deiner E-Mailadresse für die Lehrmittel-Meldestelle";
-        $message = "Dank deiner Meldung...";
+        $subject = "Lehrmittel-Meldestelle: Verifizierung deiner E-Mail-Adressse";
+        $message = "Hier kannst du <a href='https://www.lehrmittelmeldestelle.ch/meldung_formular.php'>deine Meldung erfassen</a>.<br><br>
+                    Dank deiner Unterstützung und Meldung können wir uns zusammen für mehr Diversität und Repräsentation in Lehrmitteln einsetzen.<br><br>
+                    Herzlichen Dank für deinen Support!<br><br>
+                    Deine Lehrmittel-Meldestelle<br><br>";
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         $headers .= "From: no-reply@lehrmittelmeldestelle.ch";
