@@ -12,6 +12,10 @@ form {
 .kap .kap-label {
     flex: 0 0 120px;
     position: relative;
+    
+    @media screen and (max-width:500px){
+		  display: none
+	  }
 }
 
 .kap .kap-label:before {
@@ -84,6 +88,10 @@ form *:focus-visible {
     max-width: 700px;
     font-size: 1rem;
     color: var(--c-grey);
+    
+    @media screen and (max-width:500px){
+		  font-size: 0.8rem;
+	  }
 }
 
 .widget-textarea label,
@@ -96,7 +104,16 @@ form *:focus-visible {
     pointer-events: none;
     top: 36px;
     opacity: 0.8;
+    white-space: nowrap;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		max-width: 100%;
     transition: all 0.25s ease-out;
+    
+    @media screen and (max-width:500px){
+		  font-size: 0.8rem;
+		  top: 32px;
+	  }
 }
 
 .widget-textarea textarea:not(:placeholder-shown) + label,
@@ -129,6 +146,10 @@ form *:focus-visible {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    
+    @media screen and (max-width:1200px){
+	    flex-direction: column;
+		}
 }
 
 .widget-radio .radio_container .title {
@@ -140,6 +161,10 @@ form *:focus-visible {
     padding-left: 10px;
     overflow: auto;
     position: relative;
+    
+    @media screen and (max-width:600px){
+	    display: block;
+		}
 }
 
 .widget-radio .radio_container span label {
