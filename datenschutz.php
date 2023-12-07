@@ -35,12 +35,45 @@
     <div class="inside">
         <div class="container">
             <h1>Datenschutzerklärung</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>
+				        Diese Datenschutzerklärung klärt dich über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz "Daten") im Rahmen der Nutzung unserer Webseite und der damit verbundenen Funktionen, Inhalte und Angebote auf. Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. "Verarbeitung" oder "Verantwortliche*r" verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).
+				    </p>
+				
+				    <h3>Kontaktmöglichkeit</h3>
+				
+				    <p>
+				        Wenn du per E-Mail mit uns in Kontakt trittst, werden die von dir angegebenen Daten zur Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne deine Einwilligung weiter.
+				    </p>
+				
+				    <h3>Datenverarbeitung</h3>
+				
+				    <p>
+				        Die Datenverarbeitung erfolgt auf Grundlage der gesetzlichen Bestimmungen der Datenschutzgrundverordnung (DSGVO) und des Telemediengesetzes (TMG).
+				    </p>
+				
+				    <h3>Mail-Versand</h3>
+				
+				    <p>
+				        Du erhältst von uns einmalig eine Mail mit dem Link zum Melde-Formular. Falls du uns deine Zustimmung gibst, werden wir dich über den Verlauf des Projektes informieren.
+				    </p>
+
+				    <h3>Anonymität</h3>
+				
+				    <p>
+				        Deine Mail-Adresse wird unabhängig von deiner Meldungs-Erstellung abgelegt, was die Erfassung von Meldungen anonym möglich macht. Deine Mail-Adresse wird nur weiter benutzt, wenn du deine Zustimmung gibst, um über den weiteren Verlauf des Projektes informiert zu bleiben. 
+				    </p>
+				
+				    <h3>Rechte der Nutzer*innen</h3>
+				
+				    <p>
+				        Du hast das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten entsprechend den gesetzlichen Vorgaben.
+				    </p>
+								
+				    <h3>Änderungen der Datenschutzerklärung</h3>
+				
+				    <p>
+				        Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für deinen erneuten Besuch gilt dann die neue Datenschutzerklärung.
+				    </p>
             <a class="btn btn-secondary" href="javascript:history.back()" alt="zurück" title="zurück"><span class="material-icons">arrow_back</span>Zurück</a>
         </div>
     </div>
