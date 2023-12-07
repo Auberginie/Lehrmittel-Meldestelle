@@ -1,4 +1,4 @@
-**Technische Spezifikation:**
+**Technische Spezifikationen:**
 
 - HTML
 - PHP
