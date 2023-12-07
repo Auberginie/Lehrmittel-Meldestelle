@@ -72,12 +72,12 @@ a.teaser,
 p.teaser{
   font-family: 'Agrandir';
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin-bottom: 24px;
   hyphens: auto;
   
   @media screen and (max-width:500px){
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 }
 
