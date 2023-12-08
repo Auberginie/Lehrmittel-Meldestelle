@@ -1,3 +1,9 @@
+**Lehrmittel-Meldestelle**
+
+Jegliche Darstellungen von Diskriminierung und die Reproduktion von Stereotypen tragen dazu bei, dass wir als Gesellschaft diese Denkmuster weitergeben und unterstützen, von klein auf. Lasst uns das gemeinsam angehen und für mehr Diversität in den Schulen sorgen damit sich jedes Kind repräsentiert fühlt.
+
+Damit jedes Kind Repräsentation & Diversität erleben darf.
+
 **Technische Spezifikationen:**
 
 - HTML
