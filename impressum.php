@@ -39,7 +39,6 @@
                 
                 <h3>Kontaktadresse</h3>
                 <p>Lehrmittel-Meldestelle<br>
-					Josefstrasse 28<br>
 					8005 Zürich<br>
 					Schweiz<br></p>
 					<a class="teaser" href="mailto:lehrmittelmeldestelle@protonmail.com"> <span class="material-icons">mail_outline</span> lehrmittelmeldestelle@protonmail.com</a><br><br><br>
