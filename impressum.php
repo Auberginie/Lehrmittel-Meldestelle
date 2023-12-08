@@ -48,7 +48,7 @@
                 <p>Mona Lorenz (sie/ihr)</p>
                 
                 <h3>Konzeption, Realisation & Design</h3>
-                <p>Lehrmittel-Meldestelle (Mona Lorenz)</p>
+                <p>Lehrmittel-Meldestelle & Mona Lorenz (sie/ihr)</p>
                 
                 <h3>Haftungsausschluss</h3>
                 <p>Die Lehrmittel-Meldestelle übernimmt keinerlei Gewähr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen.
